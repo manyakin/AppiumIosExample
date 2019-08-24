@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="ParallelRunOfTests" parallel="tests" thread-count="2">
+
+    <test name="iPhone 8">
+        <parameter name="device" value="iPhone 8"/>
+        <parameter name="version" value="12.1"/>
+        <parameter name="wda" value="1313"/>
+        <classes>
+            <class name="cases.LogIn"/>
+            <class name="cases.Other"/>
+        </classes>
+    </test>
+
+    <test name="iPhone 7">
+        <parameter name="device" value="iPhone 7"/>
+        <parameter name="version" value="12.1"/>
+        <parameter name="wda" value="1314"/>
+        <classes>
+            <class name="cases.SignIn"/>
+        </classes>
+    </test>
+
+</suite>
