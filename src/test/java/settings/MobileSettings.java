@@ -40,7 +40,7 @@ public class MobileSettings implements ITestListener {
     @Parameters({"device", "wda", "version"})
     public void setUp(final String device, final String wda, final String version) {
 
-        String APP = new File("src/test/resources/app/Wikipedia.app").getAbsolutePath();
+        String APP = new File("src/test/resources/app/Wikipedia.zip").getAbsolutePath();
 
         try {
 
