@@ -17,3 +17,5 @@
 ```
 ./gradlew allureReport
 ```
+ 
+ ###### [Open source software is used as a test application](https://github.com/wikimedia/wikipedia-ios "Wikipedia")
